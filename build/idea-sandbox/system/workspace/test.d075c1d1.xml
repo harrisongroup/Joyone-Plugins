@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="886604289">
+      <usages-collector id="statistics.lifecycle.project">
+        <usage id="project.opened" value="1" />
+        <usage id="project.open.time.3" value="1" />
+        <usage id="project.closed" value="1" />
+      </usages-collector>
+    </session>
+  </component>
+  <component name="PermissionStore">
+    <excludedFiles>
+      <Path>$PROJECT_DIR$/.idea</Path>
+    </excludedFiles>
+    <fileAccess>Readonly</fileAccess>
+    <terminalAccess>Readonly</terminalAccess>
+    <runAccess>Readonly</runAccess>
+    <toolWindowAccess>Disabled</toolWindowAccess>
+  </component>
+</project>

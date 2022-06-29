@@ -1,1 +1,1 @@
-# Joyone-Plugins
+# Joyone-Plugins-Jetbrains

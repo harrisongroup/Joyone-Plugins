@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>org.harrison.idea.plugin.IDEA_Plugin-Test</id>
+    <name>JONE DevAssist</name>
+    <vendor email="harrison.gyao@gmail.com" url="https://www.zhaocto.com">zhaocto.com</vendor>
+
+    <description><![CDATA[
+    This is the demo plugin to enable the abilities for JONE
+    team to develop the JONE idea plugin further
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+<!--    <depends>org.jetbrains.android</depends>-->
+<!--    <depends>com.intellij.modules.androidstudio</depends>-->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- JONE的插件分组 -->
+        <group id="JONE" text="JONE" description="JONE插件">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="HarrisonPopupMsg" class="org.harrison.idea.plugin.action.PopupMessageAction"
+                    text="Action Basics Plugin: Pop Dialog Action" description="action example"
+                    icon="AllIcons.Actions.IntentionBulb">
+                <keyboard-shortcut first-keystroke="control alt A" keymap="Mac OS X 10.5+" second-keystroke="C"/>
+                <mouse-shortcut keymap="$default" keystroke="control button3 doubleClick"/>
+            </action>
+
+            <action id="FormTestAction" class="org.harrison.idea.plugin.action.FormTestAction" text="FormTest"
+                    description="Form Test Action" icon="AllIcons.Actions.GroupByModule"/>
+        </group>
+    </actions>
+</idea-plugin>
